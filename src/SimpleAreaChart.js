@@ -10,7 +10,7 @@ import {
 	Tooltip,
 } from "recharts";
 
-const SimpleLineChart = () => {
+const SimpleAreaChart = () => {
 	const [data, setData] = useState([]);
 
 	useEffect(() => {
@@ -75,4 +75,4 @@ const SimpleLineChart = () => {
 		</div>
 	);
 };
-export default SimpleLineChart;
+export default SimpleAreaChart;
